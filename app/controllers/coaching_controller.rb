@@ -10,7 +10,7 @@ class CoachingController < ApplicationController
     elsif @query.include?("?")
       @answer = "Silly question, get dressed and go to work!"
     else
-      @answer = "I don't care, get dressed and go to work!"
+      @answer = "I don't care, get dressed and go to work!!"
     end
   end
 
